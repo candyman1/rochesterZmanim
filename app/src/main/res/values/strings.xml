@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RochesterZmanim</string>
+    <string name="today">TODAY\'S DATE: </string>
+    <string name="dawn">Olos-Dawn(M\'A): </string>
+    <string name="gra">Krias Shema(GR\'A): </string>
+    <string name="ma">Krias Shema(M\'A): </string>
+    <string name="olos">עלות</string>
+    <string name="tefila">Zman Tefila(GR\'A): </string>
+    <string name="minchaGed">Mincha Gedola(GR\'A): </string>
+    <string name="minchaKet">Mincha Ketana(GR\'A): </string>
+    <string name="plagMin">Plag HaMincha(GR\'A): </string>
+    <string name="tomorrow">TOMORROW\'S ZMANIM</string>
+</resources>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:orientation="vertical"
+>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop= "8dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:paddingBottom="12sp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/today"
+
+                android:textColor="@android:color/white"
+                android:textSize="28sp"
+                />
+            <TextView
+                android:id="@+id/today"
+                android:textSize="32sp"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="12dp"
+            android:paddingBottom="16sp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/teal"
+                android:text="@string/dawn"
+                android:textSize="24sp"
+                />
+            <TextView
+                android:id="@+id/dawn"
+                android:textSize="24sp"
+                android:textColor="@color/teal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="16sp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/lime"
+                android:text="Neitz-Sunrise: "
+                android:textSize="24sp"
+                />
+            <TextView
+                android:id="@+id/rise"
+                android:textSize="24sp"
+                android:textColor="@color/lime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="16sp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/purple"
+                android:text="@string/ma"
+                android:textSize="24sp"
+                />
+            <TextView
+                android:id="@+id/shema1"
+                android:textSize="24sp"
+                android:textColor="@color/purple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="16sp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/orange"
+                android:text="@string/gra"
+                android:textSize="24sp"
+                />
+            <TextView
+                android:id="@+id/shema"
+                android:textSize="24sp"
+                android:textColor="@color/orange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="16sp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/teal"
+                android:text="@string/tefila"
+                android:textSize="24sp"
+                />
+            <TextView
+                android:id="@+id/shmona"
+                android:textSize="24sp"
+                android:textColor="@color/teal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="16sp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/lime"
+                android:text="@string/minchaGed"
+                android:textSize="24sp"
+                />
+            <TextView
+                android:id="@+id/minchaG"
+                android:textSize="24sp"
+                android:textColor="@color/lime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="16sp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/purple"
+                android:text="@string/minchaKet"
+                android:textSize="24sp"
+                />
+            <TextView
+                android:id="@+id/minchaK"
+                android:textSize="24sp"
+                android:textColor="@color/purple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="16sp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/orange"
+                android:text="@string/plagMin"
+                android:textSize="24sp"
+                />
+            <TextView
+                android:id="@+id/plagM"
+                android:textSize="24sp"
+                android:textColor="@color/orange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="16sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shkia-Sunset: "
+                android:textColor="@color/teal"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/teal"
+                android:textSize="24sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="16sp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/lime"
+                android:text="Tzais(R'T): "
+                android:textSize="24sp"
+                />
+            <TextView
+                android:id="@+id/late"
+                android:textSize="24sp"
+                android:textColor="@color/lime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Button
+            android:background="@drawable/dimensions"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/next"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/tomorrow"
+            />
+    </LinearLayout>
+</ScrollView>
